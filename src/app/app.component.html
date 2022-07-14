@@ -1,0 +1,15 @@
+<app-navbar></app-navbar>
+
+<div class="container-fluid">
+    <!-- <h1 style="color: white; align-items: center;">WELOCOME</h1> -->
+<app-login-form class="login" (event)="login($event)"  *ngIf="toggle==false"></app-login-form>
+</div>
+<div class="container" *ngIf="toggle==true">
+    <app-form></app-form>
+    <br>
+    <app-todo></app-todo>
+    <br>    
+</div>
+
+
+

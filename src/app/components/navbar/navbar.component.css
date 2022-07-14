@@ -1,0 +1,18 @@
+
+.navbar{
+    display: flex;
+    align-items: center;
+    background-color: blueviolet;
+    justify-content: unset;
+}
+.navbar .font-weight-bold{
+    margin-left: 40%;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.navbar img{
+    vertical-align: middle;
+    height: 56px;
+    width: 55px;
+}
